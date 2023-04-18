@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ pushkar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>puskar durm band</h1>
+    <div class="container">
+        <img src="Crash_1.png" onclick="instumentclick('crash')">
+        <p>crash</p>
+         <img src="Tom_2-removebg-preview.png" onclick="instumentclick('tom')">
+          <img src="kick-removebg-preview.png" onclick="instumentclick('kick')">
+           <img src="snare-removebg-preview.png" onclick="instumentclick('snare')">
+            <img src="crash-removebg-preview.png" onclick="instumentclick('crash')">
+    </div>
+    <script>
+        function instumentclick(instr){
+            switch(instr){
+                case "crash":
+                    var crash = new Audio("crash.mp3");
+                    crash.play();
+                    break;
+                    case "kick":
+                    var kick = new Audio("kick.mp3");
+                    kick.play();
+                    break;
+                    case "snare":
+                    var snare = new Audio("snare.mp3");
+                    snare.play();
+                    break;
+                    case "tom":
+                    var tom = new Audio("tom.mp3");
+                    tom.play();
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>

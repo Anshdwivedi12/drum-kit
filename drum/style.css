@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    justify-content: space-around;
+    border:5px solid brown;
+    bottom: 100%;
+    
+    
+}
+h1{
+    text-align: center;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
